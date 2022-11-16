@@ -1,9 +1,24 @@
-header h1 {
+h1 {
     font-size: 50px;
+    font-weight: 900;
 }
 
-header h1 a {
+h1 a {
     text-decoration: none;
+
+}
+
+h1 a:hover {
+    color: inherit;
+    opacity: .4;
+}
+
+h1 a:visited {
+    color: inherit;
+}
+
+body {
+    font-family: 'Petit Formal Script', cursive;
 }
 
 .social-media {
@@ -29,32 +44,32 @@ header h1 a {
     color: white;
 }
 
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
 
 .fa-instagram {
     background: #125688;
     color: white;
 }
 
-.fa-pinterest {
-    background: #cb2027;
-    color: white;
-}
-
-.fa-tiktok {
-    color: #111111;
-
-    filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
-}
 
 ul li a {
     text-decoration: none;
 
 }
 
+ul li a:hover {
+    color: inherit;
+    opacity: .4;
+}
+
+ul li a:visited {
+    color: inherit;
+}
+
 li {
     list-style: none;
+}
+
+
+button:hover {
+    opacity: .4;
 }
